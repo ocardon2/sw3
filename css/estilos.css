@@ -1,0 +1,15 @@
+nav>li {
+    font-size: x-large;
+    color: white;
+    float: left;
+}
+
+nav>li:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+}
