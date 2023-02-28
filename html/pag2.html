@@ -1,11 +1,44 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #test {
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: solid 5px blue;
+            color: tomato;
+            /* background-color: hsl(36, 87%, 54%); */
+            box-sizing: border-box;
+
+
+            /* background: linear-gradient(45deg, red, blue, purple, cyan  ); */
+
+            background: radial-gradient(circle at left, red, blue, white, purple);
+
+            /*SHORTHAND*/
+            border-radius: 30px / 250px;
+
+            box-shadow: 10px 0 2px 5px purple, 20px 2px 0 0 darkgreen;
+
+        }
+
+        p {
+            text-shadow: 5px 10px 1px #111;
+        }
+    </style>
 </head>
+
 <body>
-    ESta es la otra
+    <p>EL parrafo</p>
+    <div id="test">
+        TEXTO DE ADENTROS
+    </div>
 </body>
+
 </html>
